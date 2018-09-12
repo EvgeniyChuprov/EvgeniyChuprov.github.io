@@ -1,0 +1,87 @@
+body {
+    width: 100%;
+    height: 100%;
+    font-size: 0.7em;
+    color: white;
+    min-width: 577px;
+    padding: 0;
+    margin: 0 auto;
+    overflow: auto;
+    display: block;
+
+}
+
+.table {
+    padding: 30px;
+    background-color: rgba(192, 192, 192, 1);
+    width: 390px;
+    height: 360px;
+    text-align: center;
+    margin: 10% auto;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.container {
+    width: 330px !important;
+}
+
+#num {
+    color: black;
+    background: white;
+    height: 30px;
+    width: 320px;
+    margin: 10px 0;
+    font-size: 2em;
+}
+
+button {
+    height: 40px;
+    width: 80px;
+    font-size: 1.5em;
+    color: white;
+    background: black;
+    border-radius: 10px;
+}
+
+.acCe {
+    background: red;
+}
+
+h4 {
+    color: red;
+}
+
+.col-sm-3 {
+    padding: 1px;
+}
+
+.equally {
+    height: 82px;
+}
+
+.zero {
+    width: 160px;
+    margin-left: -28px
+}
+
+.point {
+    width: 78px;
+    height: 40px;
+    margin-top: -1px
+}
+
+.lastRow {
+    margin: -40px 0 0 14px;
+}
+
+input {
+    margin: 0;
+    text-align: right;
+    border: 2px solid black;
+
+}
+
+.symbol {
+    background-color: black;
+}

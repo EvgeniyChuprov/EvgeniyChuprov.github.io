@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+    <link href="style.css" type="text/css" rel="stylesheet"/>
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="table">
+        <h1 id="h1">Pomodoro Clock</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6   car te">SESSION LENGTH</div>
+                <div class="col-xs-6  cor te">BREAK LENGTH</div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-1   car" id="minus">-</div>
+                <div class="col-xs-4  red" id="start">25</div>
+                <div class="col-xs-1   car" id="plus">+</div>
+
+                <div class="col-xs-1 " id="minusRelax"><p class="cor">-</p></div>
+                <div class="col-xs-4  blue" id="startRelax">5</div>
+                <div class="col-xs-1  " id="plusRelax"><p class="cor">+</p></div>
+            </div>
+        </div>
+        <p class="clock" id="par"><span id="min"></span> : <span id="sec"></span></p>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6">
+                    <button id="but">Start</button>
+                </div>
+                <div class="col-xs-6">
+                    <button id="butt">Stop</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

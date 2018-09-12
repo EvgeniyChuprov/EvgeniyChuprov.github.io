@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="style.css" type="text/css" rel="stylesheet"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+<div class="heder">
+    <h2>Tic Tac Toe</h2>
+
+    <table border="1" id="table" class="TicTacToe">
+        <tr>
+            <th class="cell1  block"></th>
+            <th class="cell2 block "></th>
+            <th class="cell3 block"></th>
+        </tr>
+        <tr>
+            <th class="cell4 block"></th>
+            <th class="cell5  block"></th>
+            <th class="cell6  block"></th>
+        </tr>
+        <tr>
+            <th class="cell7  block"></th>
+            <th class="cell8  block"></th>
+            <th class="cell9  block"></th>
+        </tr>
+    </table>
+    <div class="menu" id="menu">
+        <button id="one">One Player</button>
+        <button id="two">Two Player</button>
+    </div>
+    <div class="xOrO" id="xOrO">
+        <p>X or Y</p>
+        <p><label><input name="xOrO" type="radio" value="x"> X </label>
+            <label><input name="xOrO" type="radio" value="o">O</label></p>
+    </div>
+    <div class="tableScore">
+        <div class="score">
+            <p>One Player: <span id="oP"></span><span class="numScoreOne" id="numScoreOne"></span></p>
+            <p>Two Player: <span id="tP"></span><span class="numScoreTwo" id="numScoreTwo"></span></p>
+        </div>
+        <div>
+            <button id="reset">Reset</button>
+        </div>
+    </div>
+</body>
+</html>

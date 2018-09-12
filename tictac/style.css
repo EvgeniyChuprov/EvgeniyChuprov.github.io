@@ -1,0 +1,71 @@
+body {
+    -webkit-user-select: none;
+}
+
+.heder {
+    text-align: center;
+    margin: 10% auto;
+    height: 300px;
+    width: 350px;
+
+}
+
+table {
+    width: 250px;
+    height: 200px;
+    -webkit-transform: skew(-25deg);
+    -moz-transform: skew(-25deg);
+    -o-transform: skew(-25deg);
+    text-align: center;
+    margin: 5% auto;
+    border: none;
+}
+
+th {
+    width: 50px;
+    height: 50px;
+    border: 2px solid
+}
+
+.menu {
+
+    position: absolute;
+    border: 1px solid;
+    width: 300px;
+    text-align: center;
+    margin: -185px 20px;
+    z-index: 2;
+    background: white;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px;
+    margin: 20px 10px;
+}
+
+.xOrO {
+    position: absolute;
+    border: 1px solid;
+    width: 300px;
+    text-align: center;
+    margin: -185px 20px;
+    z-index: 1;
+    background: white;
+}
+
+label {
+    margin: 35px;
+}
+
+.score {
+    border: 2px solid;
+    width: 250px;
+    margin: 40px auto 0;
+
+}
+
+.numScoreOne, .numScoreTwo {
+    margin-left: 100px;
+}
+

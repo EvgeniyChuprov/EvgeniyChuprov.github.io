@@ -1,0 +1,85 @@
+.navbar {
+    font-family: 'Roboto', sans-serif;
+}
+
+div.jumbotron {
+    margin-top: 80px;
+    font-family: 'Roboto', sans-serif;
+}
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.panel {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url(http://justtap.org/wp-content/uploads/2017/03/code-lq.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #999;
+    min-width:485px;
+}
+
+.row-margin {
+    margin-top: 30px;
+    margin-bottom: 30px
+}
+
+.thumbnail {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.row {
+    overflow: hidden;
+}
+
+[class*="col-"] {
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
+.meText{
+    font-size:20px;
+    padding:50px;
+}
+.interval{
+    margin-bottom:100px;
+}
+.topInterval{
+    margin-top:100px;
+}
+.btn{
+    border:2px solid grey;
+}
+
+#header {
+    width:100%;
+    min-width:485px;
+    height:50px;
+    z-index:2;
+}
+.inner {
+    width:70%;
+    height:100%;
+    margin:0 auto;
+}
+
+.gnb {
+    display:inline-block;
+    list-style:none;
+    float:right;
+    margin-right:20px;
+}
+.inner , .gnb {
+    position:relative;
+    top:50%;
+    transform:translateY(-50%);
+}
+.gnb > li {
+    display:inline-block;
+    margin-right:20px;
+
+}
